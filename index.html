@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Marketer</title>
+<style>
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  .intro {
+    text-align: center;
+    padding: 100px 0;
+  }
+  .intro h1 {
+    font-size: 36px;
+    color: #fffafa;
+  }
+  .intro p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .contact-button:hover {
+    background-color: #3cce43;
+  }
+</style>
+</head>
+<body>
+<div class="intro">
+  <h1>Welcome to The Marketer</h1>
+  <h2>Unlocking Your Potential</h2>
+
+  <h2>package 1</h2>
+<p>
+ BASIC    : Investment 1500
+           daily 200
+<h2>package 2</h2>
+SILVER    : Investment 2500
+            daily 500
+<h2>package 3</h2>
+ Platinum : Investment 3500
+            daily 1000
+<h2>package 4</h2>
+ DIAMOND  : Investment 4500
+            daily 1500        
+</p>
+
+
+  <a class="contact-button" href="https://wa.link/xvu7wy">Contact Us</a>
+  <H2>Fill The Form For Registration </H2>
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="sendRegistrationDetails(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="whatsapp">WhatsApp:</label>
+        <input type="tel" id="whatsapp" name="whatsapp" required>
+
+        <label for="account-number">Account Number:</label>
+        <input type="text" id="account-number" name="account-number" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <script>
+        function sendRegistrationDetails(event) {
+            event.preventDefault();
+
+            // Get form values
+            var name = document.getElementById("name").value;
+            var age = document.getElementById("age").value;
+            var whatsapp = document.getElementById("whatsapp").value;
+            var accountNumber = document.getElementById("account-number").value;
+            var address = document.getElementById("address").value;
+
+            // Prepare message
+            var message = "Registration Details:\n\n" +
+                          "Name: " + name + "\n" +
+                          "Age: " + age + "\n" +
+                          "WhatsApp: " + whatsapp + "\n" +
+                          "Account Number: " + accountNumber + "\n" +
+                          "Address: " + address;
+
+            // Prepare WhatsApp URL
+            var whatsappURL = "http://api.whatsapp.com/send?phone=923275118272&text=" + encodeURIComponent(message);
+
+            // Redirect to WhatsApp
+            window.location.href = whatsappURL;
+        }
+    </script>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Scrolling Text Example</title>
+    </head>
+    <body>
+        <h1>THANKS FOR VISITING</h1>
+
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            Designed By The Marketer 
+             MOHSIN AWAN
+        </marquee>
+    </body>
+    </html>
+
+</body>
+</html>
+
+
+</div>
+</body>
+</html>
